@@ -1,10 +1,10 @@
 body {
   width: 1200px;
   margin: auto;
-  background-color: #b1aeae;
+  background-color: white;
 }
 .search-form {
-  background: #041cf1;
+  background: grey;
   margin: auto;
   text-align: center;
   display: flex;
@@ -19,11 +19,10 @@ body {
     border: none;
     &:focus {
       outline: none;
-      background-color: #b1aeae;
     }
   }
   & button {
-    ox-sizing: border-box;
+    box-sizing: border-box;
     margin: 0px;
     padding: 5px;
     width: 35px;
@@ -48,8 +47,6 @@ body {
   height: 16px;
   border: 2px solid;
   border-radius: 100%;
-  // margin-left: -4px;
-  // margin-top: -4px
 }
 
 .gg-search::after {

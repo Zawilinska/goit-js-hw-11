@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const urlApi = `https://pixabay.com/api/`;
-const apiKey = '38025417-155cab9872a1d53dd80473204';
+const apiKey = '39478936-059d3d412cd1bfc070fb7be9b';
 
 export function init(api_key) {
   axios.defaults.headers.common['x-api-key'] = api_key;

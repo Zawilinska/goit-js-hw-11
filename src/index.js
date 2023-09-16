@@ -3,14 +3,11 @@ import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import _ from 'lodash';
-import Waypoint from 'waypoints/lib/noframework.waypoints.min.js';
 
 const gallery = document.querySelector('.gallery');
 const searchInput = document.querySelector('.search-form input');
 const searchForm = document.querySelector('.search-form');
-const lightbox = new SimpleLightbox('.photo-card a', {
-  /* options */
-});
+const lightbox = new SimpleLightbox('.photo-card a', {});
 
 const moreBtn = document.querySelector('.load-more');
 
